@@ -4,11 +4,14 @@ font
 ========
 */
 @font-face {
-    font-family: Vazir;
-    src: url("/fonts/Vazir.woff") format("woff");
-    font-weight: normal;
+    font-family: "Vazir";
+    src: url("../fonts/Vazir-Regular-FD-WOL.woff2") format("woff2"),
+    url("../fonts/Vazir-Regular-FD-WOL.woff") format("woff"),
+    url("../fonts/Vazir-Regular-FD-WOL.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
-
 /*
 ==============
 variables
@@ -41,7 +44,7 @@ variables
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif: "Vazir","Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
